@@ -1,3 +1,4 @@
+//Program of implementing multithreading by extending class
 public class practical8 extends Thread{
     private final int thread1;
     public practical8(int a){
