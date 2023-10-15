@@ -10,8 +10,11 @@ public class practical2 {
         if ( a > 0){
             System.out.println("It is positive");
         }
-        else{
+        else if(a<0){
             System.out.println("It is negative");
+        }
+        else{
+            System.out.println("It is zero");
         }
 
     }
