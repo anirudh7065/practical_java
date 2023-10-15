@@ -6,7 +6,7 @@ public class practical8 extends Thread{
     }
     @Override
     public void run() {
-            for (int i = 0 ; i <= 5 ; i++) {
+            for (int i = 0 ; i < 3 ; i++) {
                 System.out.println(i + "this is from "+ thread1);
             try {
                     Thread.sleep(1000);
@@ -19,7 +19,7 @@ public class practical8 extends Thread{
 
     public static void main(String[] args){
         System.out.println("Program of implementing multithreading by extending class");
-        for (int i = 0  ; i <= 5 ; i++) {
+        for (int i = 0  ; i < 3; i++) {
             practical8 t1 = new practical8(i);
             t1.start();
         }
