@@ -17,7 +17,8 @@ public class practical12 {
     }
     public static class fourth extends third{
         void div(int a, int b){
-            float c = (float) a /b;
+            float c;
+            c = (float) a /b;
             System.out.println("the subtraction of "+a+" and "+b+" is "+c);
         }
     }
