@@ -20,7 +20,7 @@ public class practical21 {
         Scanner s = new Scanner(System.in);
         String a = s.next();
         try{
-            if(isvowel(a) == true) {
+            if(isvowel(a)) {
                 System.out.println("Found");
             }
             else{
