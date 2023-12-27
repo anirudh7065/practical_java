@@ -13,7 +13,7 @@ public class practical24 {
         Arrays.sort(arr);
 
 
-        System.out.print("Enter the no to find smallest & greatest k digit to find : ");
+        System.out.print("Enter the index to find smallest & greatest k digit at the index : ");
         int k = sc.nextInt();
         int a = k;
         k = k - 1;

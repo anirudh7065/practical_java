@@ -8,7 +8,7 @@ public class practical25 {
         List<Integer> b = new ArrayList<>();
         while (a != 0) {
             rem = a % 2;
-            b.addLast(rem);
+            b.add(rem);
             a = a / 2;
         }
         System.out.print("The binary digit is :- (");
@@ -23,7 +23,7 @@ public class practical25 {
         List<Integer> b = new ArrayList<>();
         while (a != 0) {
             rem = a % 8;
-            b.addLast(rem);
+            b.add(rem);
             a = a / 8;
         }
         System.out.print("The Octal digit is :- (");
@@ -38,7 +38,7 @@ public class practical25 {
         char[] hex = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
         List<Character> b = new ArrayList<>();
         while (a != 0) {
-            rem = (char) (a % 16);
+            rem = a % 16;
             b.add(hex[rem]);
             a = a / 16;
         }
